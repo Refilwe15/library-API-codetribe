@@ -4,7 +4,7 @@
 export interface Author {
   id: number;
   name: string;
-  bio?: string; // optional field
+  bio?: string; 
 }
 
 // Temporary in-memory data store
