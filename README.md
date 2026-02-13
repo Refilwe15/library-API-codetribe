@@ -35,5 +35,24 @@ A simple API to manage authors and books using Node.js , TypeScript and Express 
 
 - npm run dev
 
+## ENDPOINTS
+
+**Add Author(POST)**
+
+- http://localhost:3000/authors
 
 
+{
+  "name": "J.K. Rowling",
+  "bio": "British author, best known for Harry Potter."
+}
+
+**Add Books(POST)**
+
+- http://localhost:3000/books
+
+{
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "authorId": 1,
+  "publishedYear": 1997
+}
